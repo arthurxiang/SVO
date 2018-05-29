@@ -1,0 +1,12 @@
+/home/arthurxiang/software/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/arthurxiang/codes/git/rpg_svo/svo
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   chrono
+--   date_time
+--   atomic
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-release

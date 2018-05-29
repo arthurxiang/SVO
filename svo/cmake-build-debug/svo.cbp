@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="svo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\Sophus\;CMake Files\..\..\Sophus\build\;CMake Files\..\..\fast\;CMake Files\..\..\fast\build\;CMake Files\..\..\rpg_vikit\;CMake Files\..\..\rpg_vikit\vikit_common\;CMake Files\..\..\rpg_vikit\vikit_common\build\;CMake Files\CMakeModules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sparse_img_align">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_sparse_img_align" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_sparse_img_align"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sparse_img_align/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_sparse_img_align" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_sparse_img_align/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_depth_filter">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_depth_filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_depth_filter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_depth_filter/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_depth_filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_depth_filter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_feature_detection">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_feature_detection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_feature_detection"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_feature_detection/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_feature_detection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_feature_detection/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_pipeline">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pipeline"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_pipeline/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pipeline/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_matcher">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_matcher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_matcher"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_matcher/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_matcher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_matcher/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_pose_optimizer">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_pose_optimizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pose_optimizer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_pose_optimizer/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_pose_optimizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pose_optimizer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="svo">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/lib/libsvo.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 svo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="svo/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/lib/libsvo.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 svo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_feature_align">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_feature_align" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_feature_align"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_feature_align/fast">
+				<Option output="/home/arthurxiang/codes/git/rpg_svo/svo/bin/test_feature_align" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arthurxiang/codes/git/rpg_svo/svo/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSVO_TRACE"/>
+					<Add option="-DUSE_BUNDLE_ADJUSTMENT"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_svo/svo/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/arthurxiang/codes/git/Sophus"/>
+					<Add directory="/home/arthurxiang/codes/git/fast/include"/>
+					<Add directory="/home/arthurxiang/codes/git/rpg_vikit/vikit_common/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_feature_align/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/bundle_adjustment.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/config.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/depth_filter.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/feature_alignment.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/feature_detection.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/frame.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/frame_handler_base.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/frame_handler_mono.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/initialization.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/map.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/matcher.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/point.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/pose_optimizer.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/reprojector.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/src/sparse_img_align.cpp">
+			<Option target="svo"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/test/test_depth_filter.cpp">
+			<Option target="test_depth_filter"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/test/test_feature_alignment.cpp">
+			<Option target="test_feature_align"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/test/test_feature_detection.cpp">
+			<Option target="test_feature_detection"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/test/test_matcher.cpp">
+			<Option target="test_matcher"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/test/test_pipeline.cpp">
+			<Option target="test_pipeline"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/test/test_pose_optimizer.cpp">
+			<Option target="test_pose_optimizer"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/test/test_sparse_img_align.cpp">
+			<Option target="test_sparse_img_align"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/../../Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Sophus\build\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/../../fast/build/fastConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\fast\build\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/../../rpg_vikit/vikit_common/build/vikit_commonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\rpg_vikit\vikit_common\build\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/CMakeModules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/home/arthurxiang/codes/git/rpg_svo/svo/CMakeModules/FindG2O.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,10 @@
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/rebuild_cache.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/edit_cache.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/test_sparse_img_align.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/test_depth_filter.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/test_feature_detection.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/test_pipeline.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/test_matcher.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/test_pose_optimizer.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/svo.dir
+/home/arthurxiang/codes/git/rpg_svo/svo/cmake-build-minsizerel/CMakeFiles/test_feature_align.dir
